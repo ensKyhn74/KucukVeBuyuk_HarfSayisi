@@ -17,7 +17,6 @@ int main()
  
  while(metin[i] != '\0')
  {
-     
   if(metin[i] >= 'A' && metin[i] <= 'Z')
   {
     BuyukHarfSayaci++;
@@ -25,7 +24,7 @@ int main()
   
   else if(metin[i] >= 'a' && metin[i] <= 'z')
   {
-   KucukHarfSayaci++;
+    KucukHarfSayaci++;
   }
      
   i++;     
